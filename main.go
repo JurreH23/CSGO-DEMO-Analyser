@@ -62,7 +62,6 @@ func main() {
 		fmt.Printf("Rank Update: %d went from rank %d to rank %d, change: %f\n", e.SteamID32, e.RankOld, e.RankNew, e.RankChange)
 	})
 
-	// Parse to end
 	err = p.ParseToEnd()
 	checkError(err)
 }
